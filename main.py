@@ -5,7 +5,7 @@ from urllib.request import urlopen
 
 st.title("Cryptocurrency Daily Prices | ₿")
 st.header("Main Dashboard")
-st.subheader("you can add more crypto in code </
+st.subheader("you can add more crypto in code </) 
 
 Bitcoin = 'BTC-USD'
 Ethereum = 'ETH-USD'
