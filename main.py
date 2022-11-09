@@ -1,6 +1,7 @@
 import yfinance as yf
 import streamlit as st
 from PIL import Image
+from urllib.request import urlopen
 
 
 st.title("Cryptocurrency Daily Prices | ₿")
