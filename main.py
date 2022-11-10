@@ -35,6 +35,7 @@ imageBTC = Image.open(urlopen('https://s2.coinmarketcap.com/static/img/coins/64x
 st.image(imageBTC)
 st.table(BTC)
 st.bar_chart(BTCHis.Close)
+st.line_chart(BTCHis.Close) 
 
 
 st.write("ETHERUM ($)")
@@ -42,13 +43,15 @@ imageETH = Image.open(urlopen('https://s2.coinmarketcap.com/static/img/coins/64x
 st.image(imageETH)
 st.table(ETH)
 st.bar_chart(ETHHis.Close)
+st.line_chart(ETHHis.Close) 
 
 
 st.write("RIPPLE ($)")
 imageXRP = Image.open(urlopen('https://s2.coinmarketcap.com/static/img/coins/64x64/52.png'))
 st.image(imageXRP)
 st.table(XRP)
-st.bar_chart(XRPHis.Close)
+st.bar_chart(XRPHis.Close) 
+st.line_chart(XRPHis.Close) 
 
 
 st.write("BITCOIN CASH ($)")
@@ -56,6 +59,7 @@ imageBCH = Image.open(urlopen('https://s2.coinmarketcap.com/static/img/coins/64x
 st.image(imageBCH)
 st.table(BCH)
 st.bar_chart(BCHHis.Close)
+st.line_chart(BCHHis.Close) 
 
 
 
